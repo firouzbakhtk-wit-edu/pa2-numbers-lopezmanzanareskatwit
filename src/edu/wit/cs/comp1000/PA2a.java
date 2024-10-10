@@ -39,8 +39,9 @@ sumNonPos += numbers[i];
 
 
 
-double avgPos = (countPos > 0) ? (double) sumPos / countPos : 0.00;         double avgNonPos = (countNonPos > 0) ? (double) sumNonPos / countNonPos : 0.00; 
-        double avg = (double) sum / 5; 
+double avgPos = (countPos > 0) ? (double) sumPos / countPos : 0.00; 
+double avgNonPos = (countNonPos > 0) ? (double) sumNonPos / countNonPos : 0.00; 
+double avg = (double) sum / 5; 
 
 
         System.out.printf("The sum of the %d positive number%s: %d%n", countPos, (countPos == 1 ? "" : "s"), sumPos);
