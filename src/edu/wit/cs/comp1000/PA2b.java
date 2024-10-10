@@ -11,6 +11,10 @@ public class PA2b {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
     System.out.print("Enter a b c: ");
+	/**
+	 * allows user input for variables
+	 * 
+	 */
         
         double a = sc.nextDouble();
     double b = sc.nextDouble();
