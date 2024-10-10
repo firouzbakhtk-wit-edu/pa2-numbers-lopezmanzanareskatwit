@@ -18,13 +18,31 @@ int sumPos = 0, sumNonPos = 0, sum = 0;
 
 for (int i = 0; i < 5; i++) {
 
+	number[i] = scanner.nextInt();
+
+	sum += number[i];
+
+	if (numbers[i] > 0){
+		countPos++;
+		sumNonPos += numbers[i];
+
+	}
+
+else {
+
+countNonPos++;
+sumNonPos += numbers[i];
+
+
+}
+// Calculate the average of positive, non positive and all numbers
+double avgPos = (countPos > 0) ? (double) sumPos / countPos : 0.00; // Avoid division by zero
+        double avgNonPos = (countNonPos > 0) ? (double) sumNonPos / countNonPos : 0.00; // Avoid division by zero
+        double avg = (double) sum / 5; // Average of all numbers
 
 
 
 
-
-
-	
 }
 
 
