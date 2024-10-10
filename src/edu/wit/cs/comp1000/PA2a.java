@@ -10,6 +10,34 @@ public class PA2a {
 		// TODO: write your code here
 		Scanner scanner = new Int [5];
 		System.out.printf("Enter five whole numbers: ");
+
+//variables to track the count and sum of positive and negative numbers
+int[] numbers = new int [5];
+int countPos = 0, countNonPos = 0;
+int sumPos = 0, sumNonPos = 0, sum = 0;
+
+for (int i = 0; i < 5; i++) {
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
 	
 	}
 
