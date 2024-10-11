@@ -1,5 +1,8 @@
 package edu.wit.cs.comp1000;
-
+/**
+ * 
+ * the purpose of this program is to accurately reflect sums and averages based on user input of 5 whole numbers, positive or negative
+ */
 import java.util.Scanner;
 
 public class PA2a {
