@@ -29,7 +29,6 @@ public class PA2a {
                 countNonPos++;
             }
         }
-
         /**
          * calculate averages
          * 
